@@ -49,7 +49,16 @@ Memory-Match-Game/
 ├── style.css
 └── script.js
 ```
+## 📸 Project Screenshots
 
+### 🏠 Home Screen
+![Home Screen](home.png)
+
+### 🎮 Gameplay
+![Gameplay](gameplay.png)
+
+### 🏆 Winning Screen
+![Winning Screen](winning.png)
 ## 🚀 How to Run the Project
 
 1. Clone this repository:
