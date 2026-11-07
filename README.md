@@ -52,14 +52,13 @@ Memory-Match-Game/
 ## 📸 Project Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](home.png)
+![Home Screen](screenshots/home.png)
 
 ### 🎮 Gameplay
-![Gameplay](gameplay.png)
+![Gameplay](screenshots/gameplay.png)
 
 ### 🏆 Winning Screen
-![Winning Screen](winning.png)
-## 🚀 How to Run the Project
+![Winning Screen](screenshots/winning.png)
 
 1. Clone this repository:
 
