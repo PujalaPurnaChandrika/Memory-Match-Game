@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="start-screen">
+        <h1 class="game-title"> 🧠 Memory Match</h1>
+        <p class="tagline"> Train Your Brain • Improve Your Memory</p>
+        <button id="play-btn"> ▶ PLAY GAME </button>
+    </div>
+
+    <div id="countdown"></div>
+
+    <div class="container" id="game-container">
+         <h1> 🧠 Memory Match Game </h1>
+         <div class="details">
+              <div id="score">⭐ Score : 0 </div>
+              <div id="moves">🎯 Moves : 0 </div>
+              <div id="time"> ⏱ Time : 00:00 </div> 
+         </div>
+         <div class="buttons">
+              <button id="pause-btn">⏸ Pause </button>
+              <button id="theme-btn"> 🌙 Dark </button>
+              <button id="restart-btn">🔄 Restart </button>
+        </div>
+        <div id="game-board"></div>
+    </div>
+
+    <div id="winner-popup">
+         <div class="popup-box">
+            <h2> 🏆 Congratulations</h2>
+            <p id="final-score"></p>
+            <p id="final-moves"></p>
+            <p id="final-time"></p>
+            <p id="best-time"></p>
+            <button id="play-again"> Play Again</button>
+         </div>
+    </div>
+
+    <audio id="match-sound">
+         <source src="./sounds/match.mp3">
+    </audio>
+
+    <audio id="wrong-sound">
+         <source src="./sounds/wrong.mp3">
+    </audio>
+
+    <audio id="win-sound">
+         <source src="./sounds/win.mp3">
+    </audio>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
